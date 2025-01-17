@@ -1,3 +1,18 @@
+@import "susy";
+
+$susy: (
+  columns: 12,
+  gutters: 1,
+  global-box-sizing: border-box,
+  clearfix: true,
+  gutter-position: after,
+);
+
+// Breakpoints
+$mobile: 20rem; // 320px
+$mobile-landscape: 30rem; // 480px
+$tablet-wide: 48rem; // 768px
+
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 .gallery:after, .content:after {
   content: "";
