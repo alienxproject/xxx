@@ -1,18 +1,3 @@
-@import "susy";
-
-$susy: (
-  columns: 12,
-  gutters: 1,
-  global-box-sizing: border-box,
-  clearfix: true,
-  gutter-position: after,
-);
-
-// Breakpoints
-$mobile: 20rem; // 320px
-$mobile-landscape: 30rem; // 480px
-$tablet-wide: 48rem; // 768px
-
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 .gallery:after, .content:after {
   content: "";
@@ -21,6 +6,14 @@ $tablet-wide: 48rem; // 768px
 }
 
 body {
+  $mobile: 20rem; // 320px
+$mobile-landscape: 30rem; // 480px
+$tablet-wide: 48rem; // 768px
+  columns: 12,
+  gutters: 1,
+  global-box-sizing: border-box,
+  clearfix: true,
+  gutter-position: after,
   background: #eee;
   color: #666;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
